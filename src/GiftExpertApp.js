@@ -16,12 +16,10 @@ export const GiftExpertApp =()=> {
 
     return (
         <>
-            <h2>GiftExpertApp</h2>
+            <h2>Busca un gifs </h2>
 
             <AddCategory setCategories = { setCategories }/>
-
             <hr></hr>
-
           
 
             <ol>
@@ -30,9 +28,9 @@ export const GiftExpertApp =()=> {
                     categories.map(category =>(
 
                         <GifGrid
-                                key = {category} 
-                                category = {category} 
-                                />
+                            key = {category} 
+                            category = {category} 
+                            />
                     ))
                 }
 
